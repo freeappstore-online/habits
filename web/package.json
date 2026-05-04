@@ -1,5 +1,5 @@
 {
-  "name": "@habits/web",
+  "name": "@freehabitsapp/web",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1",
-    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.3",
