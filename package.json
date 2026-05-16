@@ -2,10 +2,21 @@
   "name": "freehabitsapp",
   "private": true,
   "packageManager": "pnpm@10.30.3",
-  "engines": { "node": ">=22" },
-  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
   "scripts": {
     "dev": "pnpm --filter @freehabitsapp/web dev",
-    "build": "pnpm --filter @freehabitsapp/web build"
+    "build": "pnpm --filter @freehabitsapp/web build",
+    "test": "pnpm --filter @habits/web exec tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/habits.git"
   }
 }
