@@ -1,3 +1,6 @@
 node_modules
 web/dist
 *.tsbuildinfo
+
+# VibeCode QA reports (regenerated on each scan)
+.vibe-check/
