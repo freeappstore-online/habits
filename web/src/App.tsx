@@ -316,7 +316,7 @@ function HabitCard({
             textAlign: "left",
             cursor: "pointer",
             color: "var(--color-ink)",
-            fontFamily: "var(--font-body)",
+            fontFamily: "Manrope, system-ui, sans-serif",
           }}
         >
           <span
@@ -465,7 +465,7 @@ export function App() {
       <div style={{ marginBottom: 28 }}>
         <h1
           style={{
-            fontFamily: "var(--font-display)",
+            fontFamily: "Fraunces, Georgia, serif",
             fontSize: 26,
             fontWeight: 700,
             margin: 0,
@@ -576,7 +576,7 @@ export function App() {
             background: "var(--color-panel)",
             color: "var(--color-ink)",
             outline: "none",
-            fontFamily: "var(--font-body)",
+            fontFamily: "Manrope, system-ui, sans-serif",
           }}
         />
         <input
@@ -595,7 +595,7 @@ export function App() {
             color: "var(--color-ink)",
             outline: "none",
             textAlign: "center",
-            fontFamily: "var(--font-body)",
+            fontFamily: "Manrope, system-ui, sans-serif",
           }}
         />
         <button
@@ -609,7 +609,7 @@ export function App() {
             background: "var(--color-accent)",
             color: "#fff",
             cursor: "pointer",
-            fontFamily: "var(--font-body)",
+            fontFamily: "Manrope, system-ui, sans-serif",
           }}
         >
           Add
