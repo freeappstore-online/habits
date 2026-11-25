@@ -15,11 +15,11 @@ interface Habit {
 const STORAGE_KEY = "habits-data";
 
 function todayStr(): string {
-  return new Date().toISOString().slice(0, 10);
+  return fmtDate(new Date());
 }
 
 function fmtDate(d: Date): string {
-  return d.toISOString().slice(0, 10);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
 /** Build array of dates for the last ~3 months (91 days), oldest first. */
